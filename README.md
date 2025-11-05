@@ -171,9 +171,7 @@ done, _ = as_completed(futures, timeout=10), None  # Increase timeout value
 ## Project Structure
 
 ```
-sre_tools/
 ├── python/
-│   ├── baidu_disk/
 │   │   ├── main.py
 │   │   ├── README.md
 │   │   └── (other modules)
