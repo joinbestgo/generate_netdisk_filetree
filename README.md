@@ -28,7 +28,7 @@ pip install requests
 3. Ensure you have the cookie extraction module in your project. The tool depends on:
 
 ```python
-from python.alice.service import get_cookie
+import get_cookie
 ```
 
 ## Configuration
@@ -43,7 +43,7 @@ Update the import path to match your project structure:
 
 ```python
 # Current path (line 14):
-from python.alice.service import get_cookie
+import get_cookie
 
 # Modify to your actual module path, for example:
 from your_module.service import get_cookie
